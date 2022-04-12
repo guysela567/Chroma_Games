@@ -1,0 +1,4 @@
+node_modules/
+win-unpacked/
+build/
+builder-effective-config.yaml

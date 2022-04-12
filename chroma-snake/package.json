@@ -1,0 +1,34 @@
+{
+  "name": "razer-chroma-snake",
+  "version": "1.0.0",
+  "description": "A snake minigame to play on your Razer keyboard",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "razer",
+    "chroma",
+    "minigame",
+    "snake",
+    "keyboard"
+  ],
+  "build": {
+    "appId": "com.electron.snakeForRazerChroma",
+    "productName": "Snake for Razer Chroma",
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "build/icon.ico"
+    }
+  },
+  "author": "Guy Sela",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^10.1.2"
+  }
+}

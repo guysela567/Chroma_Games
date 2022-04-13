@@ -2,3 +2,5 @@ node_modules/
 win-unpacked/
 build/
 builder-effective-config.yaml
+package-lock.json
+.icon-ico/
